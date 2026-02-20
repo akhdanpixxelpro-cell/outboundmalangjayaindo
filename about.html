@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami | Sewa Lapangan Outbound Batu</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav id="main-nav" class="sticky">
+        <div class="container">
+            <a href="index.html" class="logo" style="color: var(--primary);">
+                <span>🌲</span> OUTBOUND BATU
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-list">
+                <li><a href="index.html" style="color: var(--text-dark);">Beranda</a></li>
+                <li><a href="about.html" style="color: var(--text-dark);">Tentang Kami</a></li>
+                <li><a href="blog.html" style="color: var(--text-dark);">Blog & Tips</a></li>
+                <li class="show-mobile-only"><a href="https://wa.me/628123456789" class="btn btn-primary">Pesan
+                        Sekarang</a></li>
+            </ul>
+            <a href="https://wa.me/628123456789" class="btn btn-primary hide-mobile">Pesan Sekarang</a>
+        </div>
+    </nav>
+
+    <header class="about-hero">
+        <div class="container">
+            <h1>Tentang Outbound Batu</h1>
+            <p>Mendedikasikan diri untuk menyediakan ruang terbuka hijau yang inspiratif bagi pertumbuhan tim Anda.</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&q=80&w=2070"
+                        alt="Aktivitas Outbound">
+                </div>
+                <div class="about-text">
+                    <h2 style="color: var(--primary); margin-bottom: 20px;">Visi Kami</h2>
+                    <p style="margin-bottom: 20px;">Menjadi penyedia lokasi outbound nomor satu di Batu yang tidak hanya
+                        menawarkan lahan, tetapi juga pengalaman menyatu dengan alam yang tak terlupakan.</p>
+                    <h2 style="color: var(--primary); margin-bottom: 20px;">Mengapa Batu?</h2>
+                    <p>Kota Batu memiliki iklim mikro yang unik, udara yang selalu bersih, dan tanah yang subur. Kondisi
+                        ini sangat ideal untuk aktivitas fisik dan refleksi mental di luar ruangan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section style="background: #fff; padding-bottom: 0;">
+        <div class="container" style="text-align: center;">
+            <h2 style="color: var(--primary); margin-bottom: 40px;">Tim Kami</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div
+                        style="width: 100px; height: 100px; background: #ddd; border-radius: 50%; margin: 0 auto 20px;">
+                    </div>
+                    <h3>Budi Santoso</h3>
+                    <p>Operations Manager</p>
+                </div>
+                <div class="feature-card">
+                    <div
+                        style="width: 100px; height: 100px; background: #ddd; border-radius: 50%; margin: 0 auto 20px;">
+                    </div>
+                    <h3>Siska Amalia</h3>
+                    <p>Lead Instructor</p>
+                </div>
+                <div class="feature-card">
+                    <div
+                        style="width: 100px; height: 100px; background: #ddd; border-radius: 50%; margin: 0 auto 20px;">
+                    </div>
+                    <h3>Andi Wijaya</h3>
+                    <p>Facility Caretaker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Outbound Batu</h4>
+                    <p>Penyedia lahan outbound dan gathering terbaik di Kota Wisata Batu sejak 2015.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li>📍 Jl. Raya Batu - Malang, No. 123</li>
+                        <li>📞 +62 812 3456 789</li>
+                        <li>📧 info@outboundbatu.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Outbound Batu Field Rental. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/628123456789" class="fab" target="_blank" aria-label="WhatsApp Kami">
+        💬
+    </a>
+
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        aria-label="Kembali ke Atas">
+        ↑
+    </button>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        window.addEventListener('scroll', function () {
+            const scrollTopBtn = document.getElementById('scrollTop');
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+
+</html>

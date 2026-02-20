@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & Tips Outbound | Outbound Batu</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav id="main-nav" class="sticky">
+        <div class="container">
+            <a href="index.html" class="logo" style="color: var(--primary);">
+                <span>🌲</span> OUTBOUND BATU
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-list">
+                <li><a href="index.html" style="color: var(--text-dark);">Beranda</a></li>
+                <li><a href="about.html" style="color: var(--text-dark);">Tentang Kami</a></li>
+                <li><a href="blog.html" style="color: var(--text-dark);">Blog & Tips</a></li>
+                <li class="show-mobile-only"><a href="https://wa.me/628123456789" class="btn btn-primary">Pesan
+                        Sekarang</a></li>
+            </ul>
+            <a href="https://wa.me/628123456789" class="btn btn-primary hide-mobile">Pesan Sekarang</a>
+        </div>
+    </nav>
+
+    <header class="blog-header">
+        <div class="container">
+            <h1>Blog & Artikel</h1>
+            <p>Dapatkan inspirasi dan tips terbaru seputar kegiatan luar ruangan dan team building.</p>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070"
+                        alt="Tips Memilih Lapangan">
+                    <div class="blog-body">
+                        <span class="blog-date">20 Februari 2026</span>
+                        <h3>5 Tips Memilih Lapangan Outbound yang Tepat</h3>
+                        <p>Memilih lokasi adalah kunci keberhasilan acara Anda. Inilah hal-hal yang wajib Anda
+                            perhatikan.</p>
+                        <a href="blog-1-tips-memilih-lapangan.html" style="color: var(--accent); font-weight: 600;">Baca
+                            Selengkapnya →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&q=80&w=2070"
+                        alt="Manfaat Team Building">
+                    <div class="blog-body">
+                        <span class="blog-date">15 Februari 2026</span>
+                        <h3>Manfaat Nyata Team Building di Alam Terbuka</h3>
+                        <p>Mengapa perusahaan besar selalu memilih outbound setiap tahunnya? Temukan jawabannya di sini.
+                        </p>
+                        <a href="blog-2-manfaat-team-building.html" style="color: var(--accent); font-weight: 600;">Baca
+                            Selengkapnya →</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&q=80&w=2070"
+                        alt="Spot Foto Batu">
+                    <div class="blog-body">
+                        <span class="blog-date">10 Februari 2026</span>
+                        <h3>Spot Foto Terbaik di Area Outbound Batu</h3>
+                        <p>Jangan lewatkan momen indah. Kami merangkum 3 spot foto paling instagramable di area kami.
+                        </p>
+                        <a href="blog-3-spot-foto-terbaik.html" style="color: var(--accent); font-weight: 600;">Baca
+                            Selengkapnya →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Outbound Batu</h4>
+                    <p>Penyedia lahan outbound dan gathering terbaik di Kota Wisata Batu sejak 2015.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="about.html">Tentang Kami</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul>
+                        <li>📍 Jl. Raya Batu - Malang, No. 123</li>
+                        <li>📞 +62 812 3456 789</li>
+                        <li>📧 info@outboundbatu.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Outbound Batu Field Rental. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/628123456789" class="fab" target="_blank" aria-label="WhatsApp Kami">
+        💬
+    </a>
+
+    <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        aria-label="Kembali ke Atas">
+        ↑
+    </button>
+
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navList = document.getElementById('nav-list');
+
+        mobileMenu.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        window.addEventListener('scroll', function () {
+            const scrollTopBtn = document.getElementById('scrollTop');
+            if (window.scrollY > 300) {
+                scrollTopBtn.classList.add('show');
+            } else {
+                scrollTopBtn.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+
+</html>
