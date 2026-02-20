@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://outboundbatu.com/</loc>
+        <loc>https://outboundbatu.com/index.html</loc>
         <lastmod>2026-02-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -19,19 +19,31 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://outboundbatu.com/blog-1-tips-memilih-lapangan.html</loc>
+        <loc>https://outboundbatu.com/blog-1-corporate-gathering.html</loc>
         <lastmod>2026-02-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://outboundbatu.com/blog-2-manfaat-team-building.html</loc>
+        <loc>https://outboundbatu.com/blog-2-family-gathering.html</loc>
         <lastmod>2026-02-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>https://outboundbatu.com/blog-3-spot-foto-terbaik.html</loc>
+        <loc>https://outboundbatu.com/blog-3-view-alam-batu.html</loc>
+        <lastmod>2026-02-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://outboundbatu.com/blog-4-outbound-sekolah.html</loc>
+        <lastmod>2026-02-20</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://outboundbatu.com/blog-5-gathering-komunitas.html</loc>
         <lastmod>2026-02-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
